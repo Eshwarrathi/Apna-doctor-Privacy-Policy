@@ -1,0 +1,99 @@
+PRIVACY POLICY
+
+Last Updated: June 25, 2026
+
+1. INTRODUCTION
+
+Apna Doctor ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("Apna Doctor"). Please read this policy carefully.
+
+2. INFORMATION WE COLLECT
+
+2.1 Personal Information Provided by You
+- Account Registration: Full name, email address, password, phone number, and physical address.
+- Profile Information: Profile photo, bio, and specialization (for doctors).
+- Professional Details (Doctors): Years of experience, specialization field, and online availability hours.
+- Appointment Data: Reason for visit, appointment date/time, and appointment status (pending, confirmed, completed, cancelled).
+- Medical Records: Diagnosis, treatment plans, prescriptions, consultation notes, hospitalisation details (reason, department, room, start/end dates).
+- Communications: Text messages, chat media (images/files), and call logs exchanged between patients and doctors.
+
+2.2 Automatically Collected Information
+- Device permissions status (microphone, camera, Bluetooth).
+- Call duration and connection status during audio/video calls.
+
+2.3 AI Chat Data
+When you use the AI Health Assistant feature, any health-related queries you submit are processed to generate automated responses. This data is stored as chat messages in our database.
+
+3. HOW WE USE YOUR INFORMATION
+
+- To create and manage your account.
+- To facilitate appointment booking, confirmation, and management between patients and doctors.
+- To enable real-time text chat, audio calls, and video calls between users.
+- To display doctor profiles, availability, and search results to patients.
+- To store and display medical records (consultations, hospitalisations) for patient reference.
+- To provide AI-powered general health information through the AI chat feature.
+- To send notifications about incoming calls, messages, and appointment reminders.
+- To improve our services and user experience.
+
+4. DATA STORAGE AND SECURITY
+
+- Your data is stored on Firebase (Google Cloud Platform) servers using Firebase Authentication, Cloud Firestore, and Firebase Storage.
+- Chat media files are uploaded to Firebase Storage.
+- Local preferences (e.g., notification settings) are stored on your device via SharedPreferences.
+- We implement industry-standard security measures including encrypted data transmission (HTTPS/TLS).
+- Firebase services used: firebase_core, firebase_auth, cloud_firestore, firebase_storage.
+- Project ID: health-care-40385.
+
+5. THIRD-PARTY SERVICES
+
+We use the following third-party services:
+- Google Firebase (Authentication, Firestore, Storage) - for backend infrastructure.
+- Google Fonts - for app typography.
+- WebRTC (Google STUN servers, Metered.ca TURN servers, Viagenie TURN servers) - for peer-to-peer audio/video calls.
+- Provider - local state management (no data transmitted).
+
+These third parties have their own privacy policies governing data handling.
+
+6. DEVICE PERMISSIONS
+
+We request the following permissions solely for feature functionality:
+- Microphone: Required for audio/video calls.
+- Camera: Required for video calls.
+- Bluetooth: Required for Bluetooth audio devices during calls.
+- Internet/Network: Required for all online features.
+
+Permissions are requested only when needed. You can revoke them via your device settings.
+
+7. DATA SHARING AND DISCLOSURE
+
+- Between Users: Patient profile information is visible to doctors they interact with; doctor profile information is visible to all patients for search and booking.
+- Medical Records: Visible only to the patient and their treating doctor.
+- Chat Messages: Visible only to the participating sender and receiver.
+- We do NOT sell, rent, or trade your personal information.
+- We may disclose information if required by law or to protect our legal rights.
+
+8. DATA RETENTION
+
+- Account data is retained until you delete your account.
+- Medical records, appointment history, and chat messages are retained for ongoing healthcare reference.
+- You may request deletion of your data by contacting us.
+
+9. DATA DELETION
+
+You can:
+- Edit or update your profile information at any time within the app.
+- Delete your account by contacting support (this will remove your personal data from our systems).
+- Uninstall the app to remove locally stored data.
+
+10. CHILDREN'S PRIVACY
+
+Apna Doctor is not intended for children under 13. We do not knowingly collect data from children. If we become aware of such data, we will delete it immediately.
+
+11. CHANGES TO THIS POLICY
+
+We may update this Privacy Policy periodically. Changes will be posted in the app and the "Last Updated" date will be revised.
+
+12. CONTACT US
+
+For privacy-related inquiries or data deletion requests, please contact:
+- Developer: Rathisoft
+- App: Apna Doctor (Package: com.rathisoft.apnadoctor)
