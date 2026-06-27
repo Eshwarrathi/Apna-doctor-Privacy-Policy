@@ -116,7 +116,7 @@ If you are located in the European Union or European Economic Area, we process y
 
 For **special category data** (health/medical data), we rely on Article 9(2)(h) GDPR — processing necessary for the purposes of preventive or occupational medicine, medical diagnosis, and the provision of health or social care treatment.
 
-You may withdraw consent at any time by contacting us at rathisoft@email.com or using in-app settings.
+You may withdraw consent at any time by contacting us at info@rathisoft.com or using in-app settings.
 
 ---
 
@@ -158,7 +158,7 @@ We will not discriminate against you for exercising any of your CCPA/CPRA rights
 ### 6.6 Right to Limit Use of Sensitive Personal Information
 Certain health data may be considered sensitive personal information under California law. We only use such data for purposes reasonably expected by an average user (healthcare provision and communication).
 
-To exercise your rights, contact us at rathisoft@email.com or use the in-app **Settings > Delete Account** feature. We will respond within 45 days.
+To exercise your rights, contact us at info@rathisoft.com or use the in-app **Settings > About > Delete Account** feature. We will respond within 45 days.
 
 ---
 
@@ -175,7 +175,7 @@ If you are located in the European Union or European Economic Area, you have the
 - **Right to Withdraw Consent** – Withdraw consent at any time without affecting prior lawful processing
 - **Right to Lodge a Complaint** – File a complaint with your local Data Protection Authority (DPA)
 
-To exercise any of these rights, contact us at rathisoft@email.com. We will respond within **30 days** as required under GDPR.
+To exercise any of these rights, contact us at info@rathisoft.com. We will respond within **30 days** as required under GDPR.
 
 **Data Protection Authority:** If you are unsatisfied with our response, you may contact your national DPA. A full list is available at: https://edpb.europa.eu/about-edpb/about-edpb/members_en
 
@@ -201,13 +201,13 @@ Residents of Virginia, Colorado, Connecticut, and Utah have the following rights
 - Right to data portability (obtain a copy in a portable format)
 - Right to opt out of targeted advertising, sale of data, or profiling
 
-To exercise these rights, contact rathisoft@email.com.
+To exercise these rights, contact info@rathisoft.com.
 
 ---
 
 ## 10. NEVADA PRIVACY RIGHTS
 
-Nevada residents have the right to opt out of the sale of their personal information. We do not sell personal information. To submit a request, contact rathisoft@email.com.
+Nevada residents have the right to opt out of the sale of their personal information. We do not sell personal information. To submit a request, contact info@rathisoft.com.
 
 ---
 
@@ -217,7 +217,7 @@ Apna Doctor is not intended for children under the age of 13. We do not knowingl
 
 If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information immediately.
 
-If you believe a child under 13 has provided us with personal information, please contact us at rathisoft@email.com.
+If you believe a child under 13 has provided us with personal information, please contact us at info@rathisoft.com.
 
 ---
 
@@ -299,7 +299,7 @@ You may request deletion of your account and associated data through either meth
 5. Account and data permanently removed immediately
 
 **Method 2 – Email Request:**
-- Email: rathisoft@email.com
+- Email: info@rathisoft.com
 - Subject: `Account Deletion Request - Apna Doctor`
 - Include your full name and registered email
 - We process within 7 business days
@@ -318,7 +318,7 @@ You may request deletion of your account and associated data through either meth
 - Records required by applicable law or regulation
 - Information necessary to comply with legal obligations
 
-**Account Deletion URL:** https://apnadoctor.com/delete-account
+**Account Deletion URL:** https://eshwarrathi.github.io/Apna-doctor-delete-account/delete_account.html
 
 ---
 
@@ -326,11 +326,12 @@ You may request deletion of your account and associated data through either meth
 
 | Service | Purpose | Data Shared |
 |---|---|---|
-| Google Firebase | Auth, database, storage, analytics | Account data, messages, media, medical records |
+| Google Firebase (Auth) | User authentication | Account credentials |
+| Google Firebase (Firestore) | Database for messages, appointments, records | Messages, appointments, medical records |
+| Google Firebase (Storage) | File and media storage | Uploaded documents, images, media |
 | Google Cloud Platform | Infrastructure hosting | All stored data |
 | Google Fonts | App typography | None (local assets) |
 | WebRTC (STUN/TURN) | Peer-to-peer audio/video calls | IP address (temporary, for connection only) |
-| Provider | Local state management | None (local only) |
 
 These third parties have their own privacy policies governing data handling. We encourage you to review their policies.
 
@@ -359,6 +360,7 @@ Permissions are requested at the time of use. You may revoke them at any time th
 
 We do **NOT** sell, rent, or trade your personal information.  
 We do **NOT** share information for cross-context behavioral advertising.  
+We do **NOT** use advertising identifiers (Advertising ID / IDFA) in this App.  
 We may disclose information if required by law, court order, or to protect our legal rights.
 
 ---
@@ -381,11 +383,11 @@ By using Apna Doctor, you acknowledge that you have read and understood this Pri
 
 For privacy inquiries, rights requests, or data deletion requests:
 
-**Developer/Company:** Rathisoft Innovation
+**Developer/Company:** Rathisoft Innovation  
 **Email:** info@rathisoft.com  
 **App:** Apna Doctor (Package: com.rathisoft.apnadoctor)  
 **In-App Deletion:** Settings > About > Delete Account  
-**Deletion URL:** https://eshwarrathi.github.io/Apna-doctor-delete-account/delete_account.html 
+**Deletion URL:** https://eshwarrathi.github.io/Apna-doctor-delete-account/delete_account.html
 
 **For EU/EEA Data Protection Inquiries:**  
 Email: info@rathisoft.com  
